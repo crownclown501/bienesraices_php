@@ -10,7 +10,7 @@
     </div>
     <p class="copyright">Todos los derechos Reservados <?php echo date('M-Y')?> &copy;</p>
 </footer>
-<script src="build/js/bundle.min.js"></script>
+<script src="/build/js/bundle.min.js"></script>
 </body>
 
 </html>
