@@ -1,4 +1,10 @@
-<?php include 'includes/templates/header.php'; ?>
+<?php
+
+    require 'includes/funciones.php';
+    
+    incluirTemplate('header');
+
+?>
 <main class="contenedor seccion contenido-centrado">
     <h1>Casa en Venta Frente Al Bosque</h1>
     <picture>
@@ -35,4 +41,4 @@
             aut atque.</p>
     </div>
 </main>
-<?php include 'includes/templates/footer.php'; ?>
+<?php incluirTemplate('footer'); ?>
