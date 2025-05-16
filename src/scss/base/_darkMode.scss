@@ -32,4 +32,9 @@
     .error{
         filter: invert(75%);
     }
+
+    .text:not(a){
+        filter: invert(100%);
+    }
+    
 }
