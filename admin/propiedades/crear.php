@@ -78,9 +78,9 @@
         }
         
      
-        echo "<pre>";
-        var_dump($_FILES);
-        echo "<pre>";
+        // echo "<pre>";
+        // var_dump($_FILES);
+        // echo "<pre>";
         //Revisar que el array de errores este vacio
 
         if (empty($errores)) {
@@ -107,7 +107,7 @@
             // echo $resultado;
             if ($resultado) {
                 //redireccionamiento
-                header('Location:/admin');
+                header('Location:/admin?resultado=1');
             }
         }
         
